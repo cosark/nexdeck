@@ -152,6 +152,10 @@ Under System → Sign-in an administrator adds OpenID Connect providers (each ge
 
 Signing in on the home network (System → Home network) needs the browser's real address. Behind a proxy, name the proxy in `NEXDECK_TRUSTED_PROXIES`; the page shows what nexdeck makes of your own address. The image starts uvicorn with `--no-proxy-headers` and reads the forwarding headers itself; a compose file that overrides the command should do the same.
 
+## One-click deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/nexdeck/)
+
 ## The services it speaks to
 
 **Hosts and containers.** Docker, Proxmox VE, Proxmox Backup Server, ProxMenux, Kopia, Duplicati, Portainer, Pterodactyl, Calagopus, AMP, Nomad, Cup, Coolify, Gitea, Forgejo, GitLab, Semaphore UI, Meilisearch, Synology DSM, Unraid, TrueNAS, openmediavault, Glances, dashdot, Beszel, Prometheus, InfluxDB, Alertmanager, Grafana, Scrutiny, UPS through PeaNUT, NUT, Wake-on-LAN, Backrest, Zerobyte, Komodo, Arcane, Dockhand, Kubernetes, UrBackup, Elasticsearch and OpenSearch, Netdata, Pulse, Ollama, Garage, llama.cpp, Open WebUI, Watchtower, ArchiveTeam Warrior, What's Up Docker, Zabbix, nextrmnl, PatchMon, GoatCounter, Jenkins, Cronicle, Container registry, Synapse, Woodpecker CI, Umami.
